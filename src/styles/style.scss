@@ -487,13 +487,9 @@ button {
     font-size: 1rem;
   }
 
-  .card-one {
-    margin: 5em;
-    margin-bottom: 4em;
-    height: 27em;
-  }
-  .card-two {
-    margin: 4em;
+  .card {
+    height: 50em;
+    margin: 1em;
   }
 }
 
@@ -537,5 +533,11 @@ button {
 @media (max-width: 1420px) and (min-width: 926px) {
   .card {
     width: 1000px;
+  }
+}
+
+@media (max-width: 370px) {
+  .card {
+    height: 100%;
   }
 }
