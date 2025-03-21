@@ -412,13 +412,9 @@ button:hover {
   .hero p {
     font-size: 1rem;
   }
-  .card-one {
-    margin: 5em;
-    margin-bottom: 4em;
-    height: 27em;
-  }
-  .card-two {
-    margin: 4em;
+  .card {
+    height: 50em;
+    margin: 1em;
   }
 }
 .navbar {
@@ -457,5 +453,10 @@ button:hover {
 @media (max-width: 1420px) and (min-width: 926px) {
   .card {
     width: 1000px;
+  }
+}
+@media (max-width: 370px) {
+  .card {
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
